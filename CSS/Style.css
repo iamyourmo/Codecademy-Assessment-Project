@@ -1,0 +1,139 @@
+
+
+/* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar */
+
+.navbar{
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+#brand-logo{
+    margin-left: 24px;
+}
+   
+.nav-item{
+    display: flex;
+    margin-right:24px;
+}
+
+.nav-link{
+    margin: 8px;
+}
+       
+
+header span{
+    font-weight: 200;
+    color: grey;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+
+}
+
+/* Jumbotro *//* Jumbotro *//* Jumbotro *//* Jumbotro *//* Jumbotro *//* Jumbotro *//* Jumbotro */
+
+.container{
+    margin-left: 24px;
+    padding: 32px 0px;
+    
+}
+.jumbotron{
+    background-color: rgb(211, 211, 211);
+}
+
+.col-7 img{
+    width: 100%;
+}
+
+.col-5 h1{
+    font-weight: 600;
+    padding-left:24px;
+}
+
+.col-5 p{
+    padding-left:24px;
+    font-size: 30px;
+    word-spacing: 5px;
+    font-weight: 200;
+}
+
+.col-5 button{
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px 160px;
+    margin-top: 10px;
+    margin-left:22px;
+    background-color: rgb(65, 65,65);
+    color:white;
+}
+
+/* Intro *//* Intro *//* Intro *//* Intro *//* Intro *//* Intro *//* Intro *//* Intro *//* Intro */
+
+.container1{
+    display: flex;
+}
+.container1 h2{
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+.container1 h5{
+    font-weight: lighter;
+    line-height: 30px;
+}
+#introp{
+    margin-top: 50px;
+ }
+.container1 p{
+    padding-top: 15px;
+    font-weight: 300;
+}
+
+.container1 col-5 img{
+    width: 35%;
+}
+
+#intro1{
+    width: 100%;
+    padding-bottom: 32px;
+
+}
+
+#intro2{
+    width: 100%;
+    padding-bottom: 32px;
+}
+
+#intro3{
+    width: 100%;
+}
+
+.container1 h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Cards *//* Cards *//* Cards *//* Cards *//* Cards *//* Cards *//* Cards *//* Cards *//* Cards */
+
+#cdh{
+    font-weight:600;
+    text-align: center;
+    padding: 32px 0px;
+    
+}
+.container2{
+    background-color: rgb(211, 211, 211);
+    margin: 0px 0px;
+}
+
+.card-group{
+    padding: 0 32px 32px 32px;
+}
+
+.card{
+    margin-right: 32px;
+}
