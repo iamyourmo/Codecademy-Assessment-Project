@@ -2,6 +2,16 @@
 
 /* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar */
 
+#logo{
+    height: 32px;
+    margin: 10px 0px;
+}
+
+#logo2{
+    height: 32px;
+    margin: 10px 0px;
+}
+/*
 .navbar{
 
     width: 100%;
@@ -32,6 +42,7 @@ header a{
     color: black;
 
 }
+*/
 
 /* Jumbotro *//* Jumbotro *//* Jumbotro *//* Jumbotro *//* Jumbotro *//* Jumbotro *//* Jumbotro */
 
@@ -112,7 +123,7 @@ header a{
     width: 100%;
 }
 
-.container1 h3{
+.container1 h3{ 
     font-size: 16px;
     font-weight: 600;
 }
@@ -123,6 +134,7 @@ header a{
     font-weight:600;
     text-align: center;
     padding: 32px 0px;
+    margin: 0px;
     
 }
 .container2{
@@ -130,10 +142,20 @@ header a{
     margin: 0px 0px;
 }
 
-.card-group{
-    padding: 0 32px 32px 32px;
+/* 
+.c2rc4{
+    padding-left: 32px;
+    padding-right: 32px;
+    
+    
+} */
+
+#c2{
+    margin: 0 40px;
 }
 
-.card{
-    margin-right: 32px;
+#c3{
+    margin: 0px 40px;
+    padding-top: 32px;
 }
+

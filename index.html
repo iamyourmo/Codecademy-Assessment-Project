@@ -13,18 +13,27 @@
 <body>
 
     <!-- Navbar -->
-    <header>
-        <nav class="navbar bg-light">
-            <a class="navbar-brand" href="index.html">
-                <img id="brand-logo" src="capstone_colmar_assets/images/brand-logo.svg" alt="brand-logo" width="30"
-                    height="32">
-                COLMAR<span>ACADEMY</span>
-            </a>
-            <div class="nav-item">
-                <a class="nav-link" href="#">On campus</a>
-                <a class="nav-link" href="#">Online</a>
-                <a class="nav-link" href=" #">Companies</a>
-                <a class="nav-link" href=" #">sign in</a>
+    <header class="d-flex px-4">
+        <div id="logo" class="d-flex">
+            <img src="capstone_colmar_assets/images/brand-logo.svg" style="height: 2.5rem;" alt="logo">
+            <div class="text-uppercase d-none d-sm-flex d-print-flex fs-3">colmar<span class="text-muted">academy</span>
+            </div>
+
+        </div>
+        <nav class="d-flex ms-auto">
+            <div id="logo2" class="large-nav d-flex d-none d-md-flex  fs-5 align-self-center">
+                <div class="ps-3">On campus</div>
+                <div class="ps-3">Online</div>
+                <div class="ps-3">For companies</div>
+                <div class="ps-3">Sign in</div>
+            </div>
+            <div class="small-nav d-flex d-md-none justify-content-evenly">
+                <div class="p-3"><img src="capstone_colmar_assets/images/ic-on-campus.svg" style="height: 2.5rem;"
+                        alt=""></div>
+                <div class="p-3"><img src="capstone_colmar_assets/images/ic-online.svg" style="height: 2.5rem;" alt="">
+                </div>
+                <div class="p-3"><img src="capstone_colmar_assets/images/ic-login.svg" style="height: 2.5rem;" alt="">
+                </div>
             </div>
         </nav>
     </header>
@@ -102,79 +111,158 @@
 
     <!-- Cards Section -->
 
+    <section class="p-5 container-fluid d-md-none">
+        <h1 class="title text-center pb-5"> Start learning</h1>
+        <h2 class="list-group-item-dark list-group-item mt-3 p-4">Software Engineering</h2>
+        <h2 class="list-group-item-dark list-group-item mt-3 p-4">Computer Art</h2>
+        <h2 class="list-group-item-dark list-group-item mt-3 p-4">Design</h2>
+        <h2 class="list-group-item-dark list-group-item mt-3 p-4">Data</h2>
+        <h2 class="list-group-item-dark list-group-item mt-3 p-4">Business</h2>
+        <h2 class="list-group-item-dark list-group-item mt-3 p-4">Marketing</h2>
+    </section>
+
     <section>
-        <div class="container2">
+        <div class="container2 pb-5">
             <h2 id="cdh" class="display-4">Start learning</h2>
-            <div class="card-group">
-                <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div id="c2" class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" src="capstone_colmar_assets/images/course-software.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Software engineering</h5>
+                            <span class="text-uppercase text-muted fw-lighter">course</span>
+                            <p class="card-text text-mute fw-lighter">Web Development, Mobile <br> Development, iOT,
+                                APIs</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" src="capstone_colmar_assets/images/course-computer-art.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Computer art</h5>
+                            <span class="text-uppercase text-muted fw-lighter">course</span>
+                            <p class="card-text"><small class="text-muted">Imaging & Design, Web Design, Motion Graphics
+                                    & visual Effects, Computer Animation</small></p>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to show that equal
-                            height action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-group">
-                <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to show that equal
-                            height action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" src="capstone_colmar_assets/images/course-design.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Design</h5>
+                            <span class="text-uppercase text-muted fw-lighter">course</span>
+                            <p class="card-text"><small class="text-muted">User Experience Design, User Research, Visual
+                                    Design</small></p>
+                        </div>
                     </div>
                 </div>
             </div>
 
-
-
-
+            <div id="c3" class="row ">
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" src="capstone_colmar_assets/images/course-data.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Data</h5>
+                            <span class="text-uppercase text-muted fw-lighter">course</span>
+                            <p class="card-text"><small class="text-muted">Data Science, Big Data, SQL, Data
+                                    Visualizaion</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" src="capstone_colmar_assets/images/course-business.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Business</h5>
+                            <span class="text-uppercase text-muted fw-lighter">course</span>
+                            <p class="card-text"><small class="text-muted">Product Development, Business Development,
+                                    Startup</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" src="capstone_colmar_assets/images/course-marketing.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Marketing</h5>
+                            <span class="text-uppercase text-muted fw-lighter">course</span>
+                            <p class="card-text"><small class="text-muted">Analytics, Content Marketing, Mobile
+                                    Marketing</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
+    <!-- Last part -->
+    <section class="p-5 container-fluid bg-light">
+        <h1 class="title text-center pb-5">Thesis exhibit</h1>
+        <div class="row">
+            <div class="col-md-7">
+                <video controls class="img-fluid">
+                    <source src="capstone_colmar_assets/videos/thesis.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h2 class="pt-4">Reimagine Urban</h2>
+                <p class="text-muted fs-6 fw-lighter mb-5">"Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facere vel doloremque, veniam mollitia ipsam sequi placeat libero perferendis soluta et doloribus ut
+                    sunt, voluptas molestias, necessitatibus consequatur cupiditate repudiandae? Quidem."</p>
+            </div>
 
+            <div class="col-md-5 border-start d-none d-md-flex d-print-flex">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="capstone_colmar_assets/images/thesis-fisma.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-md-8 align-self-center px-3">
+                                <h3>Fisma: Design and Prototype</h3>
+                                <p class="text-muted fw-lighter">Designer showcase of new prototype product</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="capstone_colmar_assets/images/thesis-now-and-then.jpg" class="img-fluid"
+                                    alt="">
+                            </div>
+                            <div class="col-md-8 align-self-center px-3">
+                                <h3>Now and then</h3>
+                                <p class="text-muted fw-lighter">Research study about New York</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </section>
 
 
+
+
+    <footer class="text-muted d-sm-flex border-top bg-white pt-2">
+        <div class="rights ">
+            <p>
+                &#169; 2016 Colmar Academy. All rights reserved
+            </p>
+        </div>
+        <div class="footer-menu d-md-flex d-none ms-auto px-2 pb-5" style="margin-right: 20px;">
+            <span class="px-2">Terms</span>
+            <span>Privacy</span>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
