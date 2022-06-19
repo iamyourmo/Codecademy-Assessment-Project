@@ -13,8 +13,8 @@
 <body>
 
     <!-- Navbar -->
-    <header class="d-flex px-4">
-        <div id="logo" class="d-flex">
+    <header class="d-flex  px-4 ">
+        <div class="d-flex p-3 ">
             <img src="capstone_colmar_assets/images/brand-logo.svg" style="height: 2.5rem;" alt="logo">
             <div class="text-uppercase d-none d-sm-flex d-print-flex fs-3">colmar<span class="text-muted">academy</span>
             </div>
@@ -22,10 +22,10 @@
         </div>
         <nav class="d-flex ms-auto">
             <div id="logo2" class="large-nav d-flex d-none d-md-flex  fs-5 align-self-center">
-                <div class="ps-3">On campus</div>
-                <div class="ps-3">Online</div>
-                <div class="ps-3">For companies</div>
-                <div class="ps-3">Sign in</div>
+                <div class="ps-3"> <a href="#" style="text-decoration: none; color: black;">On campus </a></div>
+                <div class="ps-3"><a href="#" style="text-decoration: none; color: black;">Online</a></div>
+                <div class="ps-3"><a href="#" style="text-decoration: none; color: black;">companies</a></div>
+                <div class="ps-3"><a href="#" style="text-decoration: none; color: black;">Sign in</a></div>
             </div>
             <div class="small-nav d-flex d-md-none justify-content-evenly">
                 <div class="p-3"><img src="capstone_colmar_assets/images/ic-on-campus.svg" style="height: 2.5rem;"
@@ -44,7 +44,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-7">
-                        <img src="capstone_colmar_assets/images/banner.jpg" alt="Banner">
+                        <img src="capstone_colmar_assets/images/banner.jpg" class="img-fluid" alt=" Banner">
                     </div>
                     <div class="col-5">
                         <h1 class="display-3">Learn something new everyday</h1>
@@ -52,7 +52,6 @@
                         <button><span>Star here</span></button>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -60,8 +59,8 @@
     <!-- Intro -->
     <section>
         <div class="container container1">
-            <div class="row ">
-                <div class="col-7">
+            <div class="row justify-content-space-between">
+                <div class="col-7 position-relative d-none d-md-block  border-end">
                     <img src="capstone_colmar_assets/images/information-main.jpg" alt="mynigga">
                     <h2>It doesn't hurt to keep practicing</h2>
                     <h5>"Curabitur vitae libero in ipusm porttitor consequat. Aliquam et commodo lectus, nec consequat
@@ -69,7 +68,7 @@
                         dolor consequat, tristique ligula"</h5>
                     <p id="introp">Emanual, Sr Strategist at Hiring.com</p>
                 </div>
-                <div class="col-5">
+                <div class="col-md-5 ">
                     <div class="row ">
                         <div class="col-5">
                             <img id="intro1" src="capstone_colmar_assets/images/information-orientation.jpg"
@@ -78,7 +77,7 @@
                         <div class="col-7 align-items-center">
                             <h3>Orienatation date</h3>
                             <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                            <p><a href="#">Read more</a></p>
+                            <span><a href="#">Read more</a></span>
                         </div>
                     </div>
                     <div class="row">
@@ -92,8 +91,8 @@
                             <p><a href="#">Read more</a></p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-5">
+                    <div class="row list-group-item-dark">
+                        <div class="col-5 ">
                             <img id="intro3" src="capstone_colmar_assets/images/information-guest-lecture.jpg"
                                 alt="information-orientation">
                         </div>
@@ -111,7 +110,7 @@
 
     <!-- Cards Section -->
 
-    <section class="p-5 container-fluid d-md-none">
+    <section class="p-5 container-fluid border-top border-bottom d-md-none">
         <h1 class="title text-center pb-5"> Start learning</h1>
         <h2 class="list-group-item-dark list-group-item mt-3 p-4">Software Engineering</h2>
         <h2 class="list-group-item-dark list-group-item mt-3 p-4">Computer Art</h2>
@@ -122,7 +121,7 @@
     </section>
 
     <section>
-        <div class="container2 pb-5">
+        <div class="container2 d-none  d-md-block pb-5">
             <h2 id="cdh" class="display-4">Start learning</h2>
             <div id="c2" class="row">
                 <div class="col-4">
@@ -211,10 +210,11 @@
             <div class="col-md-7">
                 <video controls class="img-fluid">
                     <source src="capstone_colmar_assets/videos/thesis.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
+
                 </video>
-                <h2 class="pt-4">Reimagine Urban</h2>
-                <p class="text-muted fs-6 fw-lighter mb-5">"Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <h2 class="pt-4 d-none d-md-block">Reimagine Urban</h2>
+                <p class="text-muted fs-6 fw-lighter mb-5 d-none d-md-block">"Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.
                     Facere vel doloremque, veniam mollitia ipsam sequi placeat libero perferendis soluta et doloribus ut
                     sunt, voluptas molestias, necessitatibus consequatur cupiditate repudiandae? Quidem."</p>
             </div>

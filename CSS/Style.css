@@ -2,10 +2,6 @@
 
 /* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar *//* Navbar */
 
-#logo{
-    height: 32px;
-    margin: 10px 0px;
-}
 
 #logo2{
     height: 32px;
@@ -53,6 +49,7 @@ header a{
 }
 .jumbotron{
     background-color: rgb(211, 211, 211);
+    
 }
 
 .col-7 img{
